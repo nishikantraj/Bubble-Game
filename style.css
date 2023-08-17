@@ -71,3 +71,39 @@ body {
   background-color: rgb(12, 134, 12);
   cursor: pointer;
 }
+
+@media only screen and (max-width:390px) {
+      .panel{
+        width: 90vw;
+        box-shadow: 1px 2px 2px 1px rgb(247, 104, 1),-2px -2px rgb(217, 217, 5);
+      }
+      .bubble{
+        margin: 0 -3px 0 0;
+      }
+      .ptop{
+        padding: 5%;
+      }
+      .box{
+        margin-right: 5px;
+        color:black;
+        background: linear-gradient(120deg,yellow,orange);
+      }
+      .pbtm h1,h4{
+        margin-bottom: 30px;
+        margin-top: -30px;
+        background: linear-gradient(120deg,green,yellow);
+      }
+      .main{
+        background: linear-gradient(120deg,rgb(233, 89, 12),rgb(243, 196, 10),rgb(45, 235, 11));
+      }
+      .pbtm{
+        background: linear-gradient(135deg,rgb(245, 230, 95),rgb(253, 252, 251),rgb(139, 236, 173));
+
+      }
+      .ptop{
+        background: linear-gradient(120deg,rgb(255, 0, 0),rgb(224, 5, 165),rgb(34, 4, 231));
+      }
+      .bubble{
+        background:linear-gradient(120deg,yellow,green);
+      }
+}
